@@ -1,0 +1,48 @@
+*{/*ко всему коду*/
+    font-family:helvetica, arial;
+}
+
+p{/*к тегу*/
+    color:red;
+}
+    
+.paragraph{/* к классу*/
+color:green;
+}
+
+.wrap{
+    color:red;
+}
+
+#heading{/*id*/
+    font-size:45px;
+}
+
+a[href="https://google.com"]{
+    color:orange;
+}
+
+a[href="https://yandex.ru"]{
+    color:pink;
+}
+
+.container h3{/*потомки*/
+    background:red;
+}
+
+.container > p {/*видет дочку, внуков не видит*/
+    background:blue;
+}
+
+#heading + span{/*сестра, хединг рядом со спен*/
+    color:yellow;
+}
+
+a:hover{/*псевдокласс*/
+    background:red;
+    text-decoration:line-through;
+}
+
+h1::first-letter{/*псевдоэлемент*/
+    color:red;
+}
